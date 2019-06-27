@@ -1,0 +1,53 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  min-width: 50em;
+}
+.pokedex {
+  background-repeat: no-repeat;
+  background-image: url("http://gran4u.xtgem.com/Pokedex.png");
+  height: 38em;
+  width: 58em;
+  display: flex;
+}
+.pokemon_selected {
+  height: 20em;
+  margin-top: 9em;
+  margin-left: 3em;
+}
+.pokemon_selected.timeout {
+  margin-left: 6em;
+  margin-top: 12em;
+}
+.pokemon_details {
+  margin-left: 6.2em;
+  margin-top: 10em;
+  height: 23em;
+  width: 18.2em;
+  text-align: left;
+  word-wrap: break-word;
+}
+.pokemon_card {
+  border: 1px solid red;
+  height: 6em;
+  width: 20em;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 2em;
+  align-items: center;
+}
+.char_img {
+  border: 6px solid blue;
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+  background-color: white;
+  background-repeat: no-repeat;
+}
+.selection-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
