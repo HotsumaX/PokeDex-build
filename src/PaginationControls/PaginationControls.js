@@ -59,8 +59,4 @@ const styles = {
   }
 };
 
-const testing = {
-  lests something with this
- }
-
 export default PaginationControls;
